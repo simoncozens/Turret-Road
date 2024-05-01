@@ -1,5 +1,5 @@
 {
-.appVersion = "1230";
+.appVersion = "3243";
 DisplayStrings = (
 A,
 D,
@@ -16,14 +16,6 @@ name = Uppercase;
 );
 copyright = "Copyright 2018 The Turret Road Project Authors (https://github.com/noponies/turret-road)";
 customParameters = (
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
 {
 name = fsType;
 value = (
@@ -42,8 +34,25 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
 name = vendorID;
 value = NOPN;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2018-07-30 03:44:01 +0000";
@@ -275,7 +284,6 @@ verticalStems = (
 );
 weight = Light;
 weightValue = 300;
-widthValue = 5;
 xHeight = 478;
 },
 {
@@ -340,7 +348,6 @@ verticalStems = (
 );
 weight = Bold;
 weightValue = 700;
-widthValue = 5;
 xHeight = 478;
 }
 );
@@ -25812,21 +25819,15 @@ instanceInterpolations = {
 "575D5349-E17C-4630-8554-E10C4C95202B" = 1.25;
 };
 name = ExtraLight;
-weightClass = ExtraLight;
 },
 {
 customParameters = (
 {
 name = "TTFAutohint options";
 value = "--windows-compatibility";
-},
-{
-name = weightClass;
-value = 300;
 }
 );
 interpolationWeight = 300;
-interpolationWidth = 5;
 instanceInterpolations = {
 "575D5349-E17C-4630-8554-E10C4C95202B" = 1;
 };
@@ -25838,10 +25839,6 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--windows-compatibility";
-},
-{
-name = weightClass;
-value = 400;
 }
 );
 interpolationWeight = 400;
@@ -25856,10 +25853,6 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--windows-compatibility";
-},
-{
-name = weightClass;
-value = 500;
 }
 );
 interpolationWeight = 500;
@@ -25875,14 +25868,9 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--windows-compatibility";
-},
-{
-name = weightClass;
-value = 700;
 }
 );
 interpolationWeight = 700;
-interpolationWidth = 5;
 instanceInterpolations = {
 "40E32FB9-B6BE-48EB-82C7-9119AE8E729C" = 1;
 };
@@ -25895,10 +25883,6 @@ customParameters = (
 {
 name = "TTFAutohint options";
 value = "--windows-compatibility";
-},
-{
-name = weightClass;
-value = 800;
 }
 );
 interpolationWeight = 800;
